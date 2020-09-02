@@ -75,8 +75,6 @@ extension UInt32: Clampable {}
 
 extension UInt64: Clampable {}
 
-extension CGFloat: Clampable {}
-
 // Float = Float32
 extension Float: Clampable {}
 
@@ -85,4 +83,12 @@ extension Double: Clampable {}
 
 extension Float80: Clampable {}
 
+extension Decimal: Clampable {}
+
 extension Character: Clampable {}
+
+#if os(iOS) || os(macOS)
+
+extension CGFloat: Clampable {}
+
+#endif
