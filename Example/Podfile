@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftMath_Example' do
+  pod 'SwiftMath', :path => '../'
+
+  target 'SwiftMath_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

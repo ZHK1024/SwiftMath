@@ -1,0 +1,22 @@
+{
+  "name": "SwiftMath",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftMath.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ruris/SwiftMath",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZHK1024": "ZHK1024@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ZHK1024/SwiftMath",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftMath/Classes/**/**"
+}
