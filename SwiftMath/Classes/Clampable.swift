@@ -81,14 +81,20 @@ extension Float: Clampable {}
 // Double = Float64
 extension Double: Clampable {}
 
-extension Float80: Clampable {}
-
 extension Decimal: Clampable {}
 
 extension Character: Clampable {}
 
-#if os(iOS) || os(macOS)
+#if os(iOS)
 
 extension CGFloat: Clampable {}
 
+#endif
+
+#if os(macOS)
+
+extension CGFloat: Clampable {}
+
+extension Float80: Clampable {}
+    
 #endif
