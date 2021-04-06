@@ -1,6 +1,6 @@
 {
   "name": "SwiftMath",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of SwiftMath.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Ruris/SwiftMath",
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/ZHK1024/SwiftMath",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "SwiftMath/Classes/**/**"
+  "swift_versions": "5.0",
+  "source_files": "SwiftMath/Classes/**/**",
+  "swift_version": "5.0"
 }

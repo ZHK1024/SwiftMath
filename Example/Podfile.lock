@@ -1,5 +1,5 @@
 PODS:
-  - SwiftMath (0.1.0)
+  - SwiftMath (0.1.1)
 
 DEPENDENCIES:
   - SwiftMath (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftMath: 5b5ff25a4ee5a7a2b69f188d6632f2a5a618178f
+  SwiftMath: 04c305ff1971c7e5b249aa0a246ef92a26ac29c4
 
 PODFILE CHECKSUM: 7bb3d14678ccd60cf4fde5f83576a4fca2815c3e
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
